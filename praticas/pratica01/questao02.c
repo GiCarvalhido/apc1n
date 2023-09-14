@@ -4,7 +4,12 @@ Faça um programa em C que calcule a área de um triângulo (a = base x altura /
 #include <stdio.h>
 
 int main(){
-  float 
+  int altura = 14;
+  int base = 7;
+  
+  float area = altura * base /2.0f;
+  
+  printf("a area do triângulo é %f\n", area);
   
   return 0;
 }
