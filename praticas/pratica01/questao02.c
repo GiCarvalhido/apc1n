@@ -6,6 +6,11 @@ Faça um programa em C que calcule a área de um triângulo (a = base x altura /
 int main(){
   int altura = 14;
   int base = 7;
+
+  printf("Entre com o valor da altura: ");
+  scanf("%i", &altura);
+  printf("Entre com o valor da base: ");
+  scanf("%i", &base);
   
   float area = altura * base /2.0f;
   
