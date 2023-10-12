@@ -1,9 +1,9 @@
-/* 
+/*
 Faça um programa em C que determine se um número inteiro lido é par ou ímpar.
 */
 
 #include <stdio.h>
-  int main() {
+int main() {
 
   int numero = 0;
 
@@ -18,10 +18,10 @@ Faça um programa em C que determine se um número inteiro lido é par ou ímpar
     printf("O numero %i é impar!\n", numero);
   }
 
-  //int numero_nao_e_divisivel_por_dois = numero % 2 != 0;
+  // int numero_nao_e_divisivel_por_dois = numero % 2 != 0;
 
-  //if (numero_nao_e_divisivel_por_dois) {
-   // printf("O numero %i é impar!\n", numero);
+  // if (numero_nao_e_divisivel_por_dois) {
+  //  printf("O numero %i é impar!\n", numero);
   //}
-    return 0; 
- }
+  return 0;
+}
