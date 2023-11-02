@@ -56,7 +56,7 @@ while(opcao!= '0') {
       
     case '3': 
       deu_certo = system("clear");
-      printf("LISTAR RECADOS\n");
+      printf("LISTAR RECAR\n");
       printf("Não há recados\n"); 
       printf("Pressione ENTER para continuar...");
       getchar();
